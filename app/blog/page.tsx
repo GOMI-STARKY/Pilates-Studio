@@ -65,7 +65,7 @@ export default function BlogPage() {
                   </p>
                   <a
                     href="/blog"
-                    className="text-sm font-semibold text-brand-green underline decoration-brand-green/30 underline-offset-4 hover:opacity-80"
+                    className="text-sm font-semibold text-brand-blue underline decoration-brand-blue/30 underline-offset-4 hover:opacity-80"
                   >
                     Read more
                   </a>

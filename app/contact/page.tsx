@@ -70,13 +70,13 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-2">
                   <a
                     href="mailto:hello@pilates.studio"
-                    className="text-sm text-brand-green underline decoration-brand-green/30 underline-offset-4 hover:opacity-80 md:text-base"
+                    className="text-sm text-brand-blue underline decoration-brand-blue/30 underline-offset-4 hover:opacity-80 md:text-base"
                   >
                     hello@pilates.studio
                   </a>
                   <a
                     href="tel:+15035551234"
-                    className="text-sm text-brand-green underline decoration-brand-green/30 underline-offset-4 hover:opacity-80 md:text-base"
+                    className="text-sm text-brand-blue underline decoration-brand-blue/30 underline-offset-4 hover:opacity-80 md:text-base"
                   >
                     (503) 555-1234
                   </a>

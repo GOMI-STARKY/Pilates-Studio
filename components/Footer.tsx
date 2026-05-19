@@ -43,7 +43,7 @@ export default function Footer() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="/#book"
-                className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover md:px-3 md:py-1.5 md:text-lg"
+                className="inline-flex items-center justify-center rounded-xl border border-brand-blue bg-brand-blue px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-blue-hover md:px-3 md:py-1.5 md:text-lg"
               >
                 Book
               </a>

@@ -50,7 +50,7 @@ export default function AdminLogin() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base outline-none transition-colors focus:border-brand-green"
+            className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base outline-none transition-colors focus:border-brand-blue"
           />
         </div>
 
@@ -61,13 +61,13 @@ export default function AdminLogin() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base outline-none transition-colors focus:border-brand-green"
+            className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base outline-none transition-colors focus:border-brand-blue"
           />
         </div>
 
         <button
           type="submit"
-          className="rounded-xl border border-brand-green bg-brand-green px-3 py-3 text-sm font-medium text-white transition hover:bg-brand-green-hover"
+          className="rounded-xl border border-brand-blue bg-brand-blue px-3 py-3 text-sm font-medium text-white transition hover:bg-brand-blue-hover"
         >
           Sign in
         </button>

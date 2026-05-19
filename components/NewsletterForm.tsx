@@ -41,19 +41,19 @@ export default function NewsletterForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
-          className="w-full flex-1 rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark placeholder:text-black-50 outline-none transition-colors focus:border-brand-green md:text-lg"
+          className="w-full flex-1 rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark placeholder:text-black-50 outline-none transition-colors focus:border-brand-blue md:text-lg"
           name="email"
         />
         <button
           type="submit"
           disabled={status === "loading"}
-          className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover disabled:opacity-50 md:px-3 md:py-1.5 md:text-lg md:shrink-0"
+          className="inline-flex items-center justify-center rounded-xl border border-brand-blue bg-brand-blue px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-blue-hover disabled:opacity-50 md:px-3 md:py-1.5 md:text-lg md:shrink-0"
         >
           {status === "loading" ? "Subscribing..." : "Subscribe"}
         </button>
       </div>
       {status === "success" && (
-        <p className="text-center text-xs text-brand-green md:text-left">
+        <p className="text-center text-xs text-brand-blue md:text-left">
           You&rsquo;re subscribed!
         </p>
       )}

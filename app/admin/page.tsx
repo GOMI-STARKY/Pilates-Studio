@@ -42,7 +42,7 @@ export default async function AdminDashboard() {
         <div className="mt-4 flex flex-wrap gap-4">
           <a
             href="/admin/bookings"
-            className="rounded-xl border border-brand-green bg-brand-green px-4 py-2 text-sm font-medium text-white transition hover:bg-brand-green-hover"
+            className="rounded-xl border border-brand-blue bg-brand-blue px-4 py-2 text-sm font-medium text-white transition hover:bg-brand-blue-hover"
           >
             View all bookings
           </a>

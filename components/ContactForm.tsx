@@ -46,7 +46,7 @@ export default function ContactForm() {
           required
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
-          className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
+          className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-blue md:text-lg"
         />
       </div>
       <div className="flex flex-col gap-2">
@@ -59,7 +59,7 @@ export default function ContactForm() {
           required
           value={form.email}
           onChange={(e) => setForm({ ...form, email: e.target.value })}
-          className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
+          className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-blue md:text-lg"
         />
       </div>
       <div className="flex flex-col gap-2">
@@ -72,13 +72,13 @@ export default function ContactForm() {
           rows={4}
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
-          className="w-full resize-none rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
+          className="w-full resize-none rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-blue md:text-lg"
         />
       </div>
       <button
         type="submit"
         disabled={status === "loading"}
-        className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover disabled:opacity-50 md:self-start md:px-3 md:py-1.5 md:text-lg"
+        className="inline-flex items-center justify-center rounded-xl border border-brand-blue bg-brand-blue px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-blue-hover disabled:opacity-50 md:self-start md:px-3 md:py-1.5 md:text-lg"
       >
         {status === "loading" ? "Sending..." : "Send message"}
       </button>

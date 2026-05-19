@@ -72,7 +72,7 @@ export default function MembershipsPage() {
                   key={plan.name}
                   className={`flex flex-col justify-between gap-8 rounded-2xl border p-6 md:p-8 ${
                     plan.featured
-                      ? "border-brand-green bg-cream"
+                      ? "border-brand-blue bg-cream"
                       : "border-black-15 bg-white"
                   }`}
                 >
@@ -114,7 +114,7 @@ export default function MembershipsPage() {
                   </div>
                   <a
                     href="/#book"
-                    className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover md:w-auto md:px-3 md:py-1.5 md:text-lg"
+                    className="inline-flex items-center justify-center rounded-xl border border-brand-blue bg-brand-blue px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-blue-hover md:w-auto md:px-3 md:py-1.5 md:text-lg"
                   >
                     {plan.cta}
                   </a>
