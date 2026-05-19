@@ -5,16 +5,19 @@ const instructors = [
     name: "Elena Voss",
     specialty: "Reformer & Mat Pilates",
     bio: "With over a decade of teaching experience, Elena brings precision and warmth to every class. She trained under classical Pilates masters and believes in meeting every student where they are.",
+    image: "/assets/instructor-1.jpg",
   },
   {
     name: "Marcus Chen",
     specialty: "Reformer Flow & Private Sessions",
     bio: "Marcus specializes in movement rehabilitation and functional strength. His classes are known for clear cueing, creative sequences, and an encouraging atmosphere.",
+    image: "/assets/instructor-2.jpg",
   },
   {
     name: "Sofia Reyes",
     specialty: "Restorative & Mat Pilates",
     bio: "Sofia's teaching is rooted in mindfulness and body awareness. She creates a safe space for students to explore their edges and find ease in movement.",
+    image: "/assets/instructor-3.jpg",
   },
 ];
 
@@ -47,7 +50,13 @@ export default function InstructorsPage() {
                   key={instructor.name}
                   className="flex flex-col gap-6 md:gap-8"
                 >
-                  <div className="aspect-[3/4] w-full overflow-hidden rounded-2xl bg-sage" />
+                  <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-sage">
+                    <img
+                      src={instructor.image}
+                      alt={instructor.name}
+                      className="absolute inset-0 h-full w-full object-cover"
+                    />
+                  </div>
                   <div className="flex flex-col gap-2">
                     <h3 className="font-serif text-2xl font-semibold leading-snug tracking-wide text-dark">
                       {instructor.name}
