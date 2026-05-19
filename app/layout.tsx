@@ -26,7 +26,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Boutique Pilates Studio",
   description:
-    "Strengthen your body, calm your mind — Pilates classes with expert instructors in a space designed for your transformation.",
+    "Strengthen your booty, calm your mind — Pilates classes with expert instructors in a space designed for your transformation.",
 };
 
 export default function RootLayout({

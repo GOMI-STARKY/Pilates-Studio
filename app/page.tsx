@@ -134,7 +134,7 @@ export default function Home() {
           <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-12 md:gap-20">
             <div className="flex w-full max-w-3xl flex-col items-center gap-6 text-center md:gap-8">
               <h1 className="font-serif text-balance text-[clamp(2.25rem,4vw+1rem,5.25rem)] font-semibold leading-[1.1] tracking-wide text-dark">
-                Strengthen your body, calm your mind
+                Strengthen your booty, calm your mind
               </h1>
               <p className="max-w-2xl text-pretty text-sm leading-relaxed text-dark md:text-xl">
                 Step into our studio and discover the precision of Pilates in a

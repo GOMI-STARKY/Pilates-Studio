@@ -41,3 +41,6 @@ hero-video.mp4
 home___desktop_*.jpg
 Small-Gray-Hairless-Dog-with-Round-Eyes-and-Flat-Face.jpeg
 Boutique Pilates Studio_files/
+.env
+prisma/prisma/dev.db
+prisma.config.ts
