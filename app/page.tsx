@@ -1,4 +1,5 @@
 import AnimatedSection from "@/components/AnimatedSection";
+import { HeroScrollDemo } from "@/components/ui/hero-scroll-demo";
 
 const principles = [
   {
@@ -568,6 +569,9 @@ export default function Home() {
           </div>
         </section>
       </AnimatedSection>
+
+      {/* Scroll Animation */}
+      <HeroScrollDemo />
 
 
 
