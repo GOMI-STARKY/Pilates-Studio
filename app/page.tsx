@@ -226,7 +226,7 @@ export default function Home() {
             <div className="mx-auto flex max-w-3xl flex-col items-center gap-3 text-center md:gap-4">
               <p className="text-base font-semibold text-dark">Results</p>
               <h2 className="font-serif text-4xl font-semibold leading-tight tracking-wide text-dark md:text-6xl">
-                What Pilates does for you
+                What Pushups does for you
               </h2>
               <p className="text-sm leading-relaxed text-dark md:text-xl">
                 This practice changes how you move and how you feel. The work is
