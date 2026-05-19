@@ -183,7 +183,7 @@ export default function Home() {
             <div className="flex max-w-3xl flex-col gap-3 md:gap-4">
               <p className="text-base font-semibold text-dark">Foundation</p>
               <h2 className="font-serif text-4xl font-semibold leading-tight tracking-wide text-dark md:text-6xl">
-                What sets us apart
+                What poops us apart
               </h2>
               <p className="max-w-2xl text-sm leading-relaxed text-dark md:text-xl">
                 We built this studio on three principles that matter. Each one
