@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id        String @id @default(cuid())
+  email     String @unique
+  password  String
+  name      String
+  createdAt DateTime @default(now())
+}
+
+model Class {
+  id          String  @id @default(cuid())
+  name        String
+  level       String
+  duration    String
+  description String
+  maxSpots    Int     @default(6)
+  active      Boolean @default(true)
+  createdAt   DateTime @default(now())
+  bookings    Booking[]
+}
+
+model Booking {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  classId   String
+  class     Class    @relation(fields: [classId], references: [id])
+  date      DateTime
+  status    String   @default("confirmed")
+  createdAt DateTime @default(now())
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}

@@ -1,4 +1,5 @@
 import AnimatedSection from "@/components/AnimatedSection";
+import NewsletterForm from "@/components/NewsletterForm";
 
 const principles = [
   {
@@ -585,30 +586,7 @@ export default function Home() {
                 to your inbox
               </p>
             </div>
-            <form className="flex w-full max-w-lg flex-col gap-4">
-              <div className="flex flex-col gap-4 md:flex-row md:items-end">
-                <label htmlFor="email" className="sr-only">
-                  Email address
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  required
-                  placeholder="Enter your email"
-                  className="w-full flex-1 rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark placeholder:text-black-50 outline-none transition-colors focus:border-brand-green md:text-lg"
-                  name="email"
-                />
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover md:px-3 md:py-1.5 md:text-lg md:shrink-0"
-                >
-                  Subscribe
-                </button>
-              </div>
-              <p className="text-center text-xs text-dark md:text-left">
-                We respect your privacy. Unsubscribe anytime.
-              </p>
-            </form>
+            <NewsletterForm />
           </div>
         </section>
       </AnimatedSection>

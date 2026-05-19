@@ -1,4 +1,5 @@
 import AnimatedSection from "@/components/AnimatedSection";
+import ContactForm from "@/components/ContactForm";
 
 export default function ContactPage() {
   return (
@@ -82,59 +83,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <form className="flex flex-col gap-6 rounded-2xl border border-black-15 bg-white p-6 md:p-8">
-                <div className="flex flex-col gap-2">
-                  <label
-                    htmlFor="name"
-                    className="text-sm font-semibold text-dark"
-                  >
-                    Name
-                  </label>
-                  <input
-                    id="name"
-                    type="text"
-                    required
-                    className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
-                    name="name"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label
-                    htmlFor="email"
-                    className="text-sm font-semibold text-dark"
-                  >
-                    Email
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    required
-                    className="w-full rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
-                    name="email"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label
-                    htmlFor="message"
-                    className="text-sm font-semibold text-dark"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    required
-                    rows={4}
-                    className="w-full resize-none rounded-xl border border-black-15 bg-transparent px-4 py-3 text-base text-dark outline-none transition-colors focus:border-brand-green md:text-lg"
-                    name="message"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center rounded-xl border border-brand-green bg-brand-green px-3 py-1.5 text-sm font-medium text-white transition hover:bg-brand-green-hover md:self-start md:px-3 md:py-1.5 md:text-lg"
-                >
-                  Send message
-                </button>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </section>
