@@ -41,9 +41,9 @@ const results = [
 ];
 
 const stats = [
-  { value: "12+", label: "Years of precision teaching" },
-  { value: "2,400+", label: "Classes taught with care" },
-  { value: "1,200+", label: "Members finding their strength" },
+  { value: "0+", label: "" },
+  { value: "0+", label: "" },
+  { value: "0+", label: "" },
 ];
 
 const pricingPlans = [
